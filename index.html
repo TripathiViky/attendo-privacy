@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Attendo</title>
+<meta name="description" content="Privacy policy for Attendo, an offline-first team attendance tracker for Android. Attendo collects no data and requests no permissions.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1f2937;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --rule: #e5e7eb;
+    --card: #ecfdf5;
+    --card-fg: #065f46;
+    --card-rule: #a7f3d0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b1120;
+      --fg: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #60a5fa;
+      --rule: #1f2937;
+      --card: #052e23;
+      --card-fg: #6ee7b7;
+      --card-rule: #065f46;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  header { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; }
+  header img { width: 64px; height: 64px; border-radius: 14px; flex: none; }
+  h1 { font-size: 1.75rem; line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); font-size: 0.9rem; margin: 0.25rem 0 0; }
+  h2 {
+    font-size: 1.1rem; margin: 2.5rem 0 0.75rem;
+    padding-top: 1.5rem; border-top: 1px solid var(--rule);
+    letter-spacing: -0.01em;
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p, li { color: var(--fg); }
+  ul { padding-left: 1.25rem; }
+  li { margin: 0.4rem 0; }
+  a { color: var(--accent); }
+  .callout {
+    background: var(--card); color: var(--card-fg);
+    border: 1px solid var(--card-rule); border-radius: 12px;
+    padding: 1rem 1.25rem; margin: 1.5rem 0;
+    font-weight: 500;
+  }
+  .callout p { color: inherit; margin: 0; }
+  footer {
+    margin-top: 3rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: 0.85rem;
+  }
+  code {
+    background: var(--rule); padding: 0.1em 0.4em;
+    border-radius: 4px; font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="Attendo app icon">
+    <div>
+      <h1>Privacy Policy</h1>
+      <p class="sub">Attendo for Android &middot; Last updated 10 November 2026</p>
+    </div>
+  </header>
+
+  <div class="callout">
+    <p>Attendo does not collect, transmit, or share any data. Everything you enter stays on your device.</p>
+  </div>
+
+  <p>Attendo (&ldquo;the app&rdquo;) is published by Vikas Tripathi.</p>
+
+  <h2>What the app stores</h2>
+  <p>The app stores the following on your device only:</p>
+  <ul>
+    <li>Employee records you create (name, employee ID, department, position, level, join date, work schedule)</li>
+    <li>Rooms you create (name, type, capacity)</li>
+    <li>Attendance records (check-in time, check-out time, room, notes)</li>
+    <li>Your app preferences (which profile is yours, which levels are visible)</li>
+  </ul>
+  <p>
+    This data is written to the app&rsquo;s private storage area on your device. On Android,
+    this area is sandboxed by the operating system: other apps cannot read it.
+  </p>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>
+      The app does not have internet access. Its Android manifest does not request the
+      <code>INTERNET</code> permission, so the operating system blocks any network
+      connection the app could attempt.
+    </li>
+    <li>
+      The app requests <strong>no Android permissions at all</strong> &mdash; no camera,
+      microphone, location, contacts, storage, or advertising ID.
+    </li>
+    <li>The app contains no analytics, no crash reporting, no advertising, and no third-party SDKs that collect data.</li>
+    <li>No data is ever sent to the developer or to any third party.</li>
+  </ul>
+
+  <h2>Sharing data yourself</h2>
+  <p>
+    The History screen has an export button that builds a CSV of the selected day and opens
+    your device&rsquo;s standard share sheet. Nothing is sent anywhere unless you choose an
+    app to send it to. Once you share the file, that destination app&rsquo;s own privacy
+    policy applies.
+  </p>
+
+  <h2>Deleting your data</h2>
+  <ul>
+    <li><strong>Profile &rarr; Data &amp; Privacy &rarr; Delete all data</strong> removes every employee, room, and attendance record from the device.</li>
+    <li>Uninstalling the app removes all of its stored data.</li>
+  </ul>
+  <p>Because nothing is uploaded, there is no server-side copy for us to delete.</p>
+
+  <h2>Children</h2>
+  <p>
+    Attendo is a workplace tool and is not directed at children under 13. It collects no
+    data of any kind, from anyone.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    If this policy changes, the updated version will be published at this URL and the
+    &ldquo;Last updated&rdquo; date above will change.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy, or about the app in general, can be raised at
+    <a href="https://github.com/TripathiViky/attendo-privacy/issues">github.com/TripathiViky/attendo-privacy/issues</a>.
+  </p>
+
+  <footer>
+    Attendo &middot; <code>com.vikytripathi01.attendo</code>
+  </footer>
+</main>
+</body>
+</html>
